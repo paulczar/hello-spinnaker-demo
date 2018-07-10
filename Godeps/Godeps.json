@@ -1,0 +1,11 @@
+{
+	"ImportPath": "github.com/paulczar/habsup",
+	"GoVersion": "go1.8",
+	"GodepVersion": "v79",
+	"Deps": [
+		{
+			"ImportPath": "github.com/dimiro1/health",
+			"Rev": "22672c48855646f5d54b6315336d2e3fee6eef81"
+		}
+	]
+}

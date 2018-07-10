@@ -1,0 +1,5 @@
+package: github.com/dimiro1/health
+import:
+- package: github.com/garyburd/redigo
+  subpackages:
+  - redis
