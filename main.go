@@ -20,7 +20,7 @@ func loadFile(filename string) string {
     content, err := ioutil.ReadFile(file)
     if err != nil {
         fmt.Printf("%s not found, serving default hello world page", file)
-        return "<html><head><title>hello world</title></head><body>hello world!<br><br><i>Deployed to PKS by Spinnaker LIVE!!!!</i></body></html>\n"
+        return "<html><head><title>hello world</title></head><body>hello world!<br><br><i>powered by PKS</i></body></html>\n"
     }
     fmt.Println("serving %s file", file)
     return string(content)
